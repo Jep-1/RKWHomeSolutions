@@ -1,8 +1,6 @@
 import Placeholder from "@/app/media/placeholder.png"
 import Playground from "@/app/media/attachment.jpg"
 import Image from "next/image";
-import { FaArrowRightLong } from "react-icons/fa6";
-import { IoIosArrowRoundForward } from "react-icons/io";
 import { GoArrowRight } from "react-icons/go";
 
 export default function HomePageAbout() {
