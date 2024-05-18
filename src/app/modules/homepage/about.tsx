@@ -1,5 +1,5 @@
 import Placeholder from "@/app/media/placeholder.png"
-import Playground from "@/app/media/attachment.jpg"
+import Playground from "@/app/media/playground.jpg"
 import Image from "next/image";
 import { GoArrowRight } from "react-icons/go";
 
@@ -18,7 +18,7 @@ export default function HomePageAbout() {
                     <a href="#" className="flex flex-row items-center justify-center text-slate-500 font-semibold">Learn More <GoArrowRight className="ml-1 text-xl" /></a>
                 </div>
                 <div className="flex flex-col justify-center items-center">
-                        <Image alt="Placeholder" src={Playground} className="w-[450px]"/>
+                    <Image alt="Placeholder" src={Playground} className="w-[450px]" />
                     <h1 className="text-4xl p-5">Our Services</h1>
                     <p className="w-2/3 text-xl p-5">{desc2}</p>
                     <a href="#" className="flex flex-row items-center justify-center text-slate-500 font-semibold">Learn More <GoArrowRight className="ml-1 text-xl" /> </a>
