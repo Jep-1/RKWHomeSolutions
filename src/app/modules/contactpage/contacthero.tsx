@@ -1,10 +1,10 @@
-import Framing from "@/app/media/framing.jpeg"
+import contactheroimage from "@/app/media/contactheroimage.jpg"
 
-export default function AboutPageHero() {
+export default function ContactPageHero() {
 
     return (<>
         <div className="h-[45vh] flex flex-col justify-center items-center relative" style={{
-            backgroundImage: `url(${Framing.src})`,
+            backgroundImage: `url(${contactheroimage.src})`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
         }}>
@@ -15,7 +15,7 @@ export default function AboutPageHero() {
                     textShadow: "0px 5px 15px gray"
                 }}
             >
-                About Us
+                Contact
             </h1>
         </div>
     </>)
