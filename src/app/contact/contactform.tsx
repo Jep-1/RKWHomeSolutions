@@ -3,8 +3,8 @@
 export default function ContactForm() {
 
     return (<>
-        <div className="h-screen flex flex-col justify-center items-center">
-            <div className="h-1/2 w-1/2">
+        <div className="min-h-[75vh] flex flex-col justify-center items-center">
+            <div className="w-1/2">
                 <form className="flex flex-col gap-2">
                     <label htmlFor="name">Name <span className="text-red-500">*</span></label>
                     <input name="name" type="text" className="border-2 p-3" required={true} />
