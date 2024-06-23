@@ -1,5 +1,6 @@
 'use client'
 import logo from "@/app/media/LogoWHITE.png"
+import mainlogo from "@/app/media/whitelogo.png"
 import Image from "next/image"
 import { useState } from "react"
 
@@ -15,9 +16,9 @@ export default function Navbar() {
         }
     }
     return (<>
-        <div className="bg-slate-500 h-24 relative flex flex-row z-50 w-full">
-            <div className="w-1/2">
-                <a href="/"><Image src={logo} alt="Logo for RKW Home Solutions" className="max-h-24 w-auto sm:ml-10 ml-3" /></a>
+        <div className="bg-slate-700 h-24 relative flex flex-row z-50 w-full">
+            <div className="w-1/2 ">
+                <a href="/"><Image src={mainlogo} alt="Logo for RKW Home Solutions" className="max-h-[85px] w-auto sm:ml-10 ml-3 mt-1 rounded-lg" /></a>
             </div>
             <div className="w-1/2 h-full hidden lg:flex  flex-col justify-center text-white">
                 <ul className="flex flex-row gap-5 justify-end mr-5 ">
