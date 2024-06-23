@@ -14,8 +14,8 @@ export default function HomePageHero() {
                     backgroundPosition: 'center'
                 }}>
                 <div className="bg-slate-500 h-full w-full z-20 absolute opacity-50" />
-                <div className=" z-30 bg-transparent w-full flex flex-col justify-center items-center">
-                    <h1 className="text-5xl text-white text-center" style={{
+                <div className=" z-30 bg-transparent w-full flex flex-col justify-center items-center p-3">
+                    <h1 className="sm:text-5xl text-3xl m-auto text-white text-center" style={{
                         textShadow: '0px 3px 7px #272727'
                     }}>{heroText}</h1>
                     <a href="/contact" className=" border-2 px-3 py-2 rounded-md text-white m-auto hover:cursor-pointer hover:-translate-y-2 transition-all duration-200 mt-5 text-xl shadow-xl">Contact Us</a>

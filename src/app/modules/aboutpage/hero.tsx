@@ -10,7 +10,7 @@ export default function AboutPageHero() {
         }}>
             <div className="h-[45vh] w-full bg-slate-500 absolute z-20 opacity-50" />
             <h1
-                className="text-center text-7xl p-14 z-30 text-white font-bold"
+                className="text-center sm:text-7xl text-5xl p-14 z-30 text-white font-bold"
                 style={{
                     textShadow: "0px 5px 15px gray"
                 }}

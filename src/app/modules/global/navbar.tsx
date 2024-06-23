@@ -38,6 +38,7 @@ export default function Navbar() {
         <div className={`w-screen top-[79px] fixed overflow-hidden z-[45]`}>
             <ul className={`${menu ? 'translate-y-0' : '-translate-y-full'} h-fit duration-500 transition-transform flex lg:hidden flex-col justify-start items-center text-white bg-slate-400 font-semibold`}>
                 <a href="/"><li className={` w-screen hover:cursor-pointer items-center h-20 flex flex-col justify-center   hover:text-gray-600 duration-150 ease-in-out`}>Home</li></a>
+                <a href='/about'><li className={` w-screen hover:cursor-pointer h-20 flex flex-col items-center justify-center   hover:text-gray-600 duration-150 ease-in-out`}>About</li></a>
                 <a href='/services'><li className={` w-screen hover:cursor-pointer h-20 flex flex-col items-center justify-center   hover:text-gray-600 duration-150 ease-in-out`}>Services</li></a>
                 <a href="/contact"><li className={` w-screen hover:cursor-pointer h-20 flex flex-col items-center justify-center   hover:text-gray-600 duration-150 ease-in-out`}>Contact</li></a>
             </ul>

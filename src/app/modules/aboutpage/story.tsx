@@ -18,7 +18,7 @@ export default function AboutPageStory() {
 
     const desc2 = "We are dedicated to delivering exceptional craftsmanship and unparalleled customer service. We use only the finest materials and adhere to the highest standards to ensure every project meets and exceeds our clients' expectations. Our commitment to quality and integrity is the cornerstone of everything we do."
     return (<>
-        <div className="h-screen p-5">
+        <div className="xl:h-screen p-5">
             <ServiceCard image={image1} reverse={false} desc={desc1} title={title1} />
             <ServiceCard image={image2} reverse={true} desc={desc2} title={title2} />
         </div>

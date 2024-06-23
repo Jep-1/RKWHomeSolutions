@@ -30,7 +30,7 @@ export default function ContactForm() {
     };
 
     return (<>
-        <div className="min-h-[75vh] flex flex-col justify-center items-center">
+        <div className="h-fit flex flex-col justify-center items-center p-3">
             <div className="w-1/2">
                 <form ref={form} className="flex flex-col gap-2" onSubmit={sendEmail}>
                     <label htmlFor="name">Name <span className="text-red-500">*</span></label>

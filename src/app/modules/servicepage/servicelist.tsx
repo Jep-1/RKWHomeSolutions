@@ -19,7 +19,7 @@ export default function ServiceList() {
 
 
     return (<>
-        <div className="h-screen p-5 m-5">
+        <div className="h-fit p-5 m-5">
             <ServiceCard image={image1} title={title1} desc={desc1} reverse={false} />
             <ServiceCard image={image2} title={title2} desc={desc2} reverse={true} />
         </div>

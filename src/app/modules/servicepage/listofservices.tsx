@@ -31,7 +31,7 @@ export default function ListOfServices() {
 
     return (<>
         <div className=" flex flex-col  min-h-[50vh] bg-slate-400 justify-center items-center p-3">
-            <h1 className="text-5xl text-white">Full list of services</h1>
+            <h1 className="text-5xl text-white text-center">Full list of services</h1>
             <div className="p-3 w-3/4">
                 <ul className="bg-slate-200 rounded-md p-3">
                     <Accordion title="French Drains" desc={FrenchDrainsDesc} />
