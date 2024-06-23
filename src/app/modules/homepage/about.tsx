@@ -11,7 +11,7 @@ export default function HomePageAbout() {
 
     return (<>
         <div className="lg:h-screen flex flex-col justify-center items-center p-12 text-zinc-800">
-            <div className="flex flex-col w-3/4  lg:flex-row">
+            <div className="flex flex-col lg:w-3/4  lg:flex-row">
                 <div className="flex flex-col justify-center items-center lg:w-1/2">
                     <Image alt="Paintbrush on wood" src={AboutImage} className="w-[450px]" />
                     <h1 className="text-4xl p-5">About</h1>
@@ -21,7 +21,7 @@ export default function HomePageAbout() {
                 <div className="flex flex-col justify-center items-center lg:w-1/2">
                     <Image alt="Playground Set" src={Playground} className="w-[450px]" />
                     <h1 className="text-4xl p-5">Our Services</h1>
-                    <p className="lg:w-2/3 text-xl p-5">{desc2}</p>
+                    <p className="lg:w-2/3 w-full text-xl p-5">{desc2}</p>
                     <a href="/services" className="flex flex-row items-center justify-center text-slate-500 font-semibold">Learn More <GoArrowRight className="ml-1 text-xl" /> </a>
                 </div>
             </div>
