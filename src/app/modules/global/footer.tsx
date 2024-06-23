@@ -9,8 +9,8 @@ export default function Footer() {
         <div className=" h-44 bg-zinc-700 flex flex-row justify-center items-center w-full">
             <div className="flex flex-row justify-evenly items-center w-1/2">
                 <div className="text-white flex flex-col justify-center items-start w-1/3">
-                    <h3 className="flex flex-row items-center justify-center"> <FaPhone className="mr-2" /> (123) 456-7890 </h3>
-                    <h3 className="flex flex-row items-center justify-center"> <MdEmail className="mr-2" /> hello@rkwhomesolutions.com</h3>
+                    <a href="tel:8452430653"><h3 className="flex flex-row items-center justify-center"> <FaPhone className="mr-2" /> (845) 243-0653 </h3></a>
+                    <a href="mailto:rkwhomesolutions@gmail.com"><h3 className="flex flex-row items-center justify-center"> <MdEmail className="mr-2" /> rkwhomesolutions@gmail.com</h3></a>
                 </div>
 
                 <div className="flex flex-row text-3xl text-white gap-5 items-center justify-evenly w-1/3">

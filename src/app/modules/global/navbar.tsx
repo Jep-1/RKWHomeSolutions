@@ -6,7 +6,7 @@ export default function Navbar() {
     return (<>
         <div className="bg-slate-500 h-24 relative flex flex-row z-50 w-full">
             <div className="w-1/2">
-                <Image src={logo} alt="Logo for RKW Home Solutions" className="max-h-24 w-auto ml-10" />
+                <a href="/"><Image src={logo} alt="Logo for RKW Home Solutions" className="max-h-24 w-auto ml-10" /></a>
             </div>
             <div className="w-1/2 h-full flex flex-col justify-center text-white">
                 <ul className="flex flex-row gap-5 justify-end mr-5 ">

@@ -1,11 +1,38 @@
 'use client'
+import emailjs from '@emailjs/browser'
+import { useRef } from 'react'
 
 export default function ContactForm() {
+    const form = useRef(null);
+
+    const sendEmail = (e: { preventDefault: () => void; }) => {
+        e.preventDefault();
+
+        if (form.current) {
+            emailjs
+                .sendForm('service_dqe92mj', 'template_gzq6a26', form.current, {
+                    publicKey: 'HiET5pgn0Rs2A0da9',
+                })
+                .then(
+                    () => {
+                        console.log('SUCCESS!');
+                    },
+                    (error) => {
+                        console.log('FAILED...', error.text);
+                    },
+                );
+        } else {
+            console.error('Form ref is not defined.');
+        }
+
+
+        window.location.href = '/contact/submit'
+    };
 
     return (<>
         <div className="min-h-[75vh] flex flex-col justify-center items-center">
             <div className="w-1/2">
-                <form className="flex flex-col gap-2">
+                <form ref={form} className="flex flex-col gap-2" onSubmit={sendEmail}>
                     <label htmlFor="name">Name <span className="text-red-500">*</span></label>
                     <input name="name" type="text" className="border-2 p-3" required={true} />
                     <label htmlFor="phone-number">Phone Number <span className="text-red-500">*</span></label>

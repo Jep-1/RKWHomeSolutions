@@ -18,7 +18,7 @@ export default function HomePageHero() {
                     <h1 className="text-5xl text-white text-center" style={{
                         textShadow: '0px 3px 7px #272727'
                     }}>{heroText}</h1>
-                    <a className=" border-2 px-3 py-2 rounded-md text-white m-auto hover:cursor-pointer hover:-translate-y-2 transition-all duration-200 mt-5 text-xl shadow-xl">Contact Us</a>
+                    <a href="/contact" className=" border-2 px-3 py-2 rounded-md text-white m-auto hover:cursor-pointer hover:-translate-y-2 transition-all duration-200 mt-5 text-xl shadow-xl">Contact Us</a>
                 </div>
             </div>
 
